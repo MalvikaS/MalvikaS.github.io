@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-#markdown:         kramdown
+#markdown:         redcarpet
+markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
@@ -18,12 +18,14 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-gems: [jekyll-paginate]
+gems: 
+  -jekyll-paginate
+  -jekyll-gist
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "page:num"	
 
 # Custom vars
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/MalvikaS/MalvikaS.github.io
